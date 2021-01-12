@@ -71,7 +71,9 @@ func Verify(token, key string) (*VerifyResponse, error) {
 	request := struct {
 		Token    string `json:"Token"`
 		SignData string `json:"SignData"`
-	}{}
+	}{
+		Token: token,
+	}
 
 	k, _ := base64.StdEncoding.DecodeString(key)
 	//make SignData
