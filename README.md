@@ -4,7 +4,7 @@
 # Usage
 
 ## Installation
-`go get github.com/mahmoud-eskandari/sadad-go`
+`go get github.com/mahmoud-eskandari/gosadad`
 ## Import
 ```
 import(
