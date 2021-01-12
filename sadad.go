@@ -1,4 +1,4 @@
-package sdad_go
+package gosadad
 
 import (
 	"bytes"
