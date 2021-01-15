@@ -15,6 +15,8 @@ import(
 ## Get a token
 ```
 //LocalDateTime,SignData is optional
-Token,err := gosadad.GetToken(sadad.TokenRequest{},"{KEY}")
+Token,err := gosadad.GetToken(gosadad.TokenRequest{},"{KEY}")
+
+res,err := gosadad.Verify(Token,"{KEY}")
 
 ```
